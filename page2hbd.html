@@ -1,0 +1,240 @@
+<html>
+    <head>
+        <title>Bhargav</title>
+            <script type="text/javascript">
+                var wid=100;
+                var diff=2;
+                var idl=0;
+               function increase()
+
+                {
+                    idl=setInterval(zoomin,5);
+                }
+                        function zoomin()
+                        {
+                        if(wid<200)
+                            {
+                                wid=wid+2;
+                                document.getElementById("one").style.width=wid;
+                            }
+                        else{
+                            clearInterval(idl)
+                        }
+                        }
+                        function decrease()
+
+{
+    idl=setInterval(zoomout,5);
+}
+        function zoomout()
+        {
+        if(wid>100)
+            {
+                wid=wid-2;
+                document.getElementById("one").style.width=wid;
+            }
+        else{
+            clearInterval(idl)
+        }
+        }
+
+        function increase1()
+
+{
+    idl=setInterval(zoomin1,5);
+}
+        function zoomin1()
+        {
+        if(wid<200)
+            {
+                wid=wid+2;
+                document.getElementById("two").style.width=wid;
+            }
+        else{
+            clearInterval(idl)
+        }
+        }
+        function decrease1()
+
+{
+idl=setInterval(zoomout1,5);
+}
+function zoomout1()
+{
+if(wid>100)
+{
+wid=wid-2;
+document.getElementById("two").style.width=wid;
+}
+else{
+clearInterval(idl)
+}
+}
+
+function increase2()
+
+{
+    idl=setInterval(zoomin2,5);
+}
+        function zoomin2()
+        {
+        if(wid<200)
+            {
+                wid=wid+2;
+                document.getElementById("three").style.width=wid;
+            }
+        else{
+            clearInterval(idl)
+        }
+        }
+        function decrease2()
+
+{
+idl=setInterval(zoomout2,5);
+}
+function zoomout2()
+{
+if(wid>100)
+{
+wid=wid-2;
+document.getElementById("three").style.width=wid;
+}
+else{
+clearInterval(idl)
+}
+}
+function increase3()
+
+                {
+                    idl=setInterval(zoomin3,5);
+                }
+                        function zoomin3()
+                        {
+                        if(wid<200)
+                            {
+                                wid=wid+2;
+                                document.getElementById("four").style.width=wid;
+                            }
+                        else{
+                            clearInterval(idl)
+                        }
+                        }
+                        function decrease3()
+
+{
+    idl=setInterval(zoomout3,5);
+}
+        function zoomout3()
+        {
+        if(wid>100)
+            {
+                wid=wid-2;
+                document.getElementById("four").style.width=wid;
+            }
+        else{
+            clearInterval(idl)
+        }
+        }
+       
+                    
+                    
+
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </script>
+                <body>
+                    
+                    <img id="one" onmouseover="increase()" onmouseout="decrease()" src="ballon3.png" width="100"/>
+                   
+                    
+                    
+                    <img id="two" onmouseover="increase1()" onmouseout="decrease1()" src="baloon.jpg" width="100"/>
+                    <img id="five"   src="cake1.png" width="100"/>
+                   
+                   
+                    
+                    <img id="three" onmouseover="increase2()" onmouseout="decrease2()" src="heart.png" width="100"/>
+                    
+                    
+                    <img id="four" onmouseover="increase3()" onmouseout="decrease3()" src="baloon4.jpg" width="100"/>
+                    <div>
+                        <form action="page3hbd.html">
+                            <button type="submit">C</button>
+                        </form>
+                    </div>
+
+
+                   
+                   
+                   
+
+                    
+
+                    
+                </body>
+                    <style type="text/css">
+                   
+                    #one{
+                        float: left;
+                        border: 2px solid black;
+                    }
+                    #two{
+                        float: right;
+                        margin-left: 500px;
+                        
+                        border: 2px solid black;
+
+                    }
+                    #three{
+                        margin-top: 100px;
+                        margin-right: 500px;
+                        
+                        border: 2px solid black;
+
+
+                    }
+                    #four{
+                        margin-top: 100px;
+                        float: right;
+                        border: 2px solid black;
+                    }
+                    #five{
+                        border: 2px solid black;
+                        float: right;
+                        margin-top: 300px;
+                        margin-left: 100px;
+                        height: 300px;
+                        width: 300px;
+                        
+                    }
+                    div{
+                        margin: auto;
+                        width: 20%;
+                        border: 1px solid black;
+                        padding: 10px;
+                    }
+                  
+        
+                    
+                    body{
+                        background-color: navajowhite;
+                    }
+                    </style>
+
+
+
+
+
+    </head>
+
+</html>
